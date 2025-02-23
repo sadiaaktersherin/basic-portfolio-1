@@ -2,6 +2,13 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: #3b506c;
+    font: 17px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
 
 header {
@@ -44,25 +51,93 @@ nav ul li a {
     color: #3b506c;
 
 }
+
 /* banner css */
-.banner{
+.banner {
     text-align: center;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 70px;
     color: #3b506c;
     margin: 90px 0px 0px 0px;
 }
-.banner img{
+
+.banner img {
     width: 50%;
-    margin: 20px 0 0 0;
+    margin: auto;
 
 }
-.banner h1 span{
+
+.banner h1 span {
 
     color: #0c66ff;
 }
-.banner p{
+
+.banner p {
     color: #3b506c;
     font-size: 17px;
 }
+.parent{
+    display: flex;
+
+}
+.item{
+    width: 50%;
+    padding: 0 25px 0 25px;
+
+
+}
+.special{
+    text-align: right;
+}
+.item h1{
+    font-size: 40px;
+    color: #3b506c;
+}
+.special h1{
+    color: red;
+}
+.item p{
+    color: #3b506c;
+
+}
+
+/* service */
+.service-section{
+    margin: 70px 30px;
+}
+.service{
+    display: flex;
+    gap: 30px;
+}
+.service-item{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.service-item img{
+    height: 250px;
+}
+.service-item h4{
+    font-size: 25px;
+    margin: 10px 0;
+    color: #0c66ff;
+}
+.service-item p{}
+
+
+
+/* footer */
+footer{
+    background-color: #3b506c;
+    color: wheat;
+    padding: 50px;
+    text-align: center;
+}
+footer h3{
+    font-size: 20px;
+}
+
+
+
